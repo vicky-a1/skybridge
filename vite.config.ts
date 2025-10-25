@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === "production" ? "/skybridge-ai-ops/" : "/",
+  base: "/",
   build: {
     outDir: "dist",
     sourcemap: false,

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import heroDroneVideo from "/videos/hero-drone.mp4";
+const heroDroneVideo = "/videos/hero-drone.mp4";
 import { Link } from "react-router-dom";
 import { Eye, Zap, Shield, MapPin, Activity, Sun, Moon, Cpu, Cloud, RefreshCw } from "lucide-react";
 import { useTheme } from "next-themes";
