@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.190.0/",
+    "resend": "https://esm.sh/resend@6.2.2"
+  }
+}
